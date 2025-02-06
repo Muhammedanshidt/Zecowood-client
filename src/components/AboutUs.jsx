@@ -17,10 +17,10 @@ function AboutUs() {
                 <h1 className="text-6xl font-bold text-primary">About us</h1>
             </motion.div>
 
-            <div className="flex flex-col md:flex-row justify-center items-center gap-8">
+            <div className="flex flex-col md:flex-row justify-center items-center">
                
                 <motion.div
-                    variants={fadeIn("right", 0.5, 80)}
+                    variants={fadeIn("right", 0.5, 40)}
                     initial="hidden"
                     whileInView={"show"}
                     viewport={{ once: false, amount: 0.7 }}

@@ -5,9 +5,9 @@ import { fadeIn } from '../constant/animationVariants';
 function Landing() {
     return (
         <div>
-            <div className='w-full flex justify-center'>
+            <div className=' flex justify-center'>
                 <motion.div
-                variants={fadeIn("up",0.5,150)}
+                variants={fadeIn("up",0.5,100)}
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{once:false,amount:0.7}}
