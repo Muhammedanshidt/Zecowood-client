@@ -11,7 +11,7 @@ function Landing() {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{once:false,amount:0.7}}
-                className='text-secondary text-3xl md:text-8xl font-neogrotesque'>
+                className='text-secondary text-3xl md:text-8xl font-neogrotesque sticky top-30'>
                     <h1> Innovate Better</h1>
                     <h1 className="ml-2">With <img src={Text} className='h-4 md:h-12 inline-block ml-2' /></h1>
                 </motion.div>

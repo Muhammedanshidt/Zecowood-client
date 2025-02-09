@@ -35,7 +35,7 @@ import Products from "./components/Products";
 
 function App() {
   return (
-    <div >
+    <div  >
       <Navbar />
       <div id="home" className="h-screen my-20 flex  justify-center">
         <Landing />

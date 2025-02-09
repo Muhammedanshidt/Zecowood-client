@@ -10,10 +10,10 @@ export default function Navbar() {
 
   return (
     <nav className="sticky top-0 z-50 p-3 bg-accent font-neogrotesque text-lg font-semibold ">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-2">
-        <div className="flex justify-between items-center h-16 p-4">
-          {/* Logo */}
-          <div className="flex-shrink-0 mr-20 rounded-2xl cursor-pointer">
+
+      <div className="flex  justify-between items-center h-16 p-4">
+        {/* Logo */}
+        <div className="flex-shrink-0 mr-20 rounded-2xl cursor-pointer">
             <ScrollLink to="home" smooth={true} duration={500}>
               <img src={Logo} className="h-10" alt="Logo" />
             </ScrollLink>
@@ -41,11 +41,11 @@ export default function Navbar() {
             </button>
           </div>
         </div>
-      </div>
+
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-white shadow-lg">
+       <div className="md:hidden bg-white shadow-l g w-full">
           {["about", "products", "sustainability", "conservation", "wildlife"].map((section) => (
             <ScrollLink
               key={section}
