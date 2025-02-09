@@ -15,7 +15,7 @@ export default function Navbar() {
         {/* Logo */}
         <div className="flex-shrink-0 mr-20 rounded-2xl cursor-pointer">
             <ScrollLink to="home" smooth={true} duration={500}>
-              <img src={Logo} className="h-10" alt="Logo" />
+              <img src={Logo} height='auto' width='auto' className="h-10" alt="Logo" />
             </ScrollLink>
           </div>
 

@@ -14,7 +14,7 @@ function AboutUs() {
                 viewport={{ once: false, amount: 0.7 }}
                 className="text-center mb-10"
             >
-                <h1 className="text-6xl font-bold text-primary">About us</h1>
+                <p className="text-6xl font-bold text-primary">About us</p>
             </motion.div>
 
             <div className="flex flex-col md:flex-row justify-center items-center">
@@ -26,7 +26,7 @@ function AboutUs() {
                     viewport={{ once: false, amount: 0.7 }}
                     className="h-80"
                 >
-                    <img src={Panda} className="h-full object-contain rounded-full" />
+                    <img src={Panda} height='auto' width='auto' alt='image' className="h-full object-contain rounded-full" />
                 </motion.div>
 
                 {/* Description Section  */}
