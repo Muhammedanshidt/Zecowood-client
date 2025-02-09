@@ -1,1 +1,1 @@
-    https://zecowood-client.vercel.app/
+https://zecowood-client.vercel.app/
